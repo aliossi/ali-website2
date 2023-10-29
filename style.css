@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif,Arial;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:0 100px;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-weight: 3700;
+    display: flex;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    padding-top: 35px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 32%;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 35px 35px;
+    transition: all 0.2s;
+
+}
+.navbar a:hover{
+
+    color:white;
+    background-color: black;
+
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.titel{
+    padding: 200px 100px;
+}
+
+.titel .titel-one{
+    padding-bottom: 10px;
+    color: red;
+}
+
+.titel .titel-two ,.titel .titel-three{
+    padding-bottom: 10px;
+}
+
+.orderbtn{
+
+    margin: 20px 100px;
+    color: rgb(32,0,0);
+    border:1px solid red;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 800;
+
+
+}
+
+.orderbtn:hover{
+    background-color: red;
+    color: yellow;
+}
+
+.home-img{
+    transition: 0.7s ease;
+}
+.home-img img{
+
+   margin-top:50%;
+
+}
+
+.home-img:hover{
+    transform: scale(1.1);
+}
+
+#text{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+    font-size: 25px;
+    color: black;
+    font-weight: 800;
+
+}
+.products-img{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.titel-img img{
+    width: 250px;
+    height: 250px;
+    transition: 0.8s ease;
+    padding-top: 10px;
+
+}
+
+.titel-img img:hover{
+    transform:scale(1.1);
+}
+
+
+
+
+
+
+
